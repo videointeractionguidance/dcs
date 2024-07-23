@@ -13,9 +13,8 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       title: Welcome to the DCS!
-      text: Learn how to enter data 😃
+      text: <p style="font-size:110%">This is the portal for VIG practitioners to record data from pre- and post-VIG meetings with clients. We also encourage practitioners to use this system for a 6 month follow up meeting.<p>
     design:
-      css_class: dark
       background:
         gradient_end: '#43cea2'
         gradient_start: '#185a9d'

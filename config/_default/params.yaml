@@ -35,7 +35,9 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "VIG Data Collection System"
+      icon_pack: fas
+      icon: download
 
 # Site footer
 footer:
