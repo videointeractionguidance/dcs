@@ -44,7 +44,6 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: start
     content:
       title: 'Let's get started...'
       subtitle: ''
