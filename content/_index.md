@@ -11,10 +11,8 @@ design:
 sections:
   - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       title: Welcome to the Data Collection System
       text: ""
-      # Show a call-to-action button under your biography? (optional)
     design:
       background:
         color: black
