@@ -66,8 +66,6 @@ sections:
         5. When you are ready, please go to the 'Input Data' tab, you will be asked a few questions to take you to the right form. Then, you can navigate flexibly by using the tabs at the top of the page.
     design:
       columns: '1'
-
-Thank you for using the system, please use the feedback page if you have any development suggestions. 
   - block: collection
     id: vig
     content:
