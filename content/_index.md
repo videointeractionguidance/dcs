@@ -14,21 +14,18 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       title: Welcome to the Data Collection System
       text: The DCS, is **the** place for VIG practitioners to record data from all VIG client meetings. 
-      primary_action:
-        text: Get Started
-        url: ''
-        icon: sparkles
-      announcement:
-        text: Powered by KOBOToolbox 
-        link:
-          text: Read more
-          url: https://example.com
     design:
+      css_class: dark
+      background:
+        color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Oreti.svg
-          position: right
-          parallax: true
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
   - block: markdown
     content:
       title: 'Benefits of DCS'
