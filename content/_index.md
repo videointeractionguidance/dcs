@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       title: Welcome to the Data Collection System
-      text: The DCS, is **the** place for VIG practitioners to record data from all VIG client meetings. 
+      subtitle: The DCS, is the place for VIG practitioners to record data from all VIG client meetings. 
     design:
       css_class: dark
       background:
