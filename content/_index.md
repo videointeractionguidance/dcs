@@ -12,26 +12,62 @@ sections:
   - block: hero
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      title: Welcome to the DCS!
-      text: This is the portal for VIG practitioners to record data from pre- and post-VIG meetings with clients. We also encourage practitioners to use this system for a 6 month follow up meeting.
+      title: Welcome to the Data Collection System
+      text: The DCS, is **the** place for VIG practitioners to record data from all VIG client meetings. 
+      primary_action:
+        text: Get Started
+        url: /#getstarted
+        icon: sparkles
+      announcement:
+        text: Powered by KOBOToolbox 
+        link:
+          text: Read more
+          url: https://example.com
     design:
+      css_class: dark
       background:
-        gradient_end: '#43cea2'
-        gradient_start: '#185a9d'
-        text_color_light: true
-        parallax: true
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: Oreti.svg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: right
+          parallax: true
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Benefits of DCS'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        The form includes a meeting structure for you to follow flexibly with you clients.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        The form is already set up with the questions and measures you need for your meetings, all in one place.
+
+        This will help you and your clients get the most out of their meetings before and after VIG.
+
+        The system will store completely anonymised data to help us evaluate the effectiveness of VIG. 
     design:
       columns: '1'
+  - block: markdown
+    id: getstarted
+    content:
+      title: 'Let's get started...'
+      subtitle: ''
+      text: |-
+        1. It is essential that you first have contact with AVIGuk. **You will need to complete some self-directed training and your organisation will need to agree to you using the system.**
+
+        2. Please make sure both you and your client have signed a consent form, you can find these on the 'Consent Forms' tab (the practitioner signs an electronic copy and the client signs a paper copy in line with your organisations' policies and procedures).
+
+        3. As the practitioner, you should also familiarise yourself and sign the **terms and conditions** before using the system. This can be found alongside the practitioner consent form.
+        
+        4. The 'Introduction to VIG' tab has an overview of VIG, which you may find helpful to review with your client first.
+        
+        5. When you are ready, please go to the 'Input Data' tab, you will be asked a few questions to take you to the right form. Then, you can navigate flexibly by using the tabs at the top of the page.
+    design:
+      columns: '1'
+
+Thank you for using the system, please use the feedback page if you have any development suggestions. 
   - block: collection
     id: vig
     content:
