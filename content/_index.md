@@ -16,7 +16,7 @@ sections:
       text: The DCS, is **the** place for VIG practitioners to record data from all VIG client meetings. 
       primary_action:
         text: Get Started
-        url: /#getstarted
+        url: ''
         icon: sparkles
       announcement:
         text: Powered by KOBOToolbox 
