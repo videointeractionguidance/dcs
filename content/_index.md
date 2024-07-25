@@ -24,15 +24,9 @@ sections:
           text: Read more
           url: https://example.com
     design:
-      css_class: dark
-      background:
-        color: black
         image:
           # Add your image background to `assets/media/`.
           filename: Oreti.svg
-          filters:
-            brightness: 1.0
-          size: cover
           position: right
           parallax: true
   - block: markdown
