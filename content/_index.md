@@ -42,7 +42,7 @@ sections:
       columns: '1'
   - block: markdown
     content:
-      title: 'Let's get started...'
+      title: 'Let's get started'
       subtitle: ''
       text: |-
         1. It is essential that you first have contact with AVIGuk. **You will need to complete some self-directed training and your organisation will need to agree to you using the system.**
