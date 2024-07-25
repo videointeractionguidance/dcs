@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       title: Welcome to the DCS!
-      text: <p style="font-size:110%">This is the portal for VIG practitioners to record data from pre- and post-VIG meetings with clients. We also encourage practitioners to use this system for a 6 month follow up meeting.</p>
+      text: This is the portal for VIG practitioners to record data from pre- and post-VIG meetings with clients. We also encourage practitioners to use this system for a 6 month follow up meeting.
     design:
       background:
         gradient_end: '#43cea2'
@@ -33,7 +33,7 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: papers
+    id: vig
     content:
       title: Featured Publications
       filters:

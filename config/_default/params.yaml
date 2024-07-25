@@ -36,6 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: "VIG Data Collection System"
+      filename: "logo.svg"
 
 # Site footer
 footer:
