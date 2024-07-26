@@ -18,7 +18,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: Oreti.svg
+          filename: poly.svg
           filters:
             brightness: 1.0
           size: cover
